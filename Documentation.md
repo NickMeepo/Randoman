@@ -41,6 +41,9 @@ All callings in Randoman framework begins with Random, and ends with single() if
 ```swift
 let value = Random.XXX().single()
 let values = Random.XXX().batch(count: 10)
+
+let value = Random.XXX().single(using: &generator)
+let values = Random.XXX().batch(count: 10, using: &generator)
 ```
 
 ### Basic Types
