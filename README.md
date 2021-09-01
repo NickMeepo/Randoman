@@ -40,6 +40,12 @@ let trial = Random.sample.bernoulli(successProp: 0.25).single()
 
 ### Installation
 
+You can install Randoman by using Cocoapods:
+
+```ruby
+pod 'Randoman'
+```
+
 ### Documentation
 
 [Link](https://github.com/NickMeepo/Randoman/blob/main/Documentation.md)
