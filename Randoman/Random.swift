@@ -275,10 +275,9 @@ public extension Random {
         .init(range: range)
     }
 
+    #if os(iOS)
     /// Random Float16 in 0....1.
     @available(iOS 14.0, watchOS 7.0, tvOS 14.0, *)
-    @available(macOS, unavailable)
-    @available(macCatalyst, unavailable)
     static func float16() -> RandomFloatingPoint<Float16> {
         .init(range: Float16(0)...Float16(1))
     }
@@ -287,7 +286,6 @@ public extension Random {
     ///
     /// - Parameter range: range of Range<Float16>.
     @available(iOS 14.0, watchOS 7.0, tvOS 14.0, *)
-    @available(macOS, unavailable)
     @available(macCatalyst, unavailable)
     static func float16(in range: Range<Float16>) -> RandomFloatingPoint<Float16> {
         .init(range: range)
@@ -297,11 +295,11 @@ public extension Random {
     ///
     /// - Parameter range: range of ClosedRange<Float16>.
     @available(iOS 14.0, watchOS 7.0, tvOS 14.0, *)
-    @available(macOS, unavailable)
     @available(macCatalyst, unavailable)
     static func float16(in range: ClosedRange<Float16>) -> RandomFloatingPoint<Float16> {
         .init(range: range)
     }
+    #endif
 
 }
 
@@ -690,6 +688,7 @@ public extension Random {
 
 }
 
+#if canImport(JavaScriptCore)
 // MARK: Regex Pattern Matching
 public extension Random {
 
@@ -701,6 +700,7 @@ public extension Random {
     }
 
 }
+#endif
 
 // MARK: Foundation
 public extension Random {

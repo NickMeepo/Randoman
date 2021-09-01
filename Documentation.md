@@ -337,7 +337,7 @@ pod 'Randoman'
 
 ### Requirement
 
-- iOS 10.0+ / Mac OS X 10.15+ / tvOS 10.0+
+- iOS 10.0+
 
 - Xcode 10.0+
 

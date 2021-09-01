@@ -5,6 +5,7 @@
 //  Created by NickMeepo on 2021/2/24.
 //
 
+#if canImport(JavaScriptCore)
 import Foundation
 import JavaScriptCore
 
@@ -72,3 +73,4 @@ public final class RandomRegex: Randomizable {
     }
 
 }
+#endif
