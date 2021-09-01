@@ -183,7 +183,7 @@ let uuid = Random.uuid().single()
 
 Randoman tries to generate strings satisfied given regex pattern. To archive this goal, I import a JS framework [randexp.js(v0.5.3)](https://github.com/fent/randexp.js) in Randoman.
 
-Using following function to generate strings satisfied given regex patter:
+Using following function to generate strings satisfied given regex pattern:
 
 ```swift
 // generate a phone, one result such as: "12307323611".
