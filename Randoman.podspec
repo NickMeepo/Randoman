@@ -9,13 +9,13 @@
 Pod::Spec.new do |s|
   s.name             = "Randoman"
   s.version          = "0.1.0"
-  s.summary          = "My toolkit to get random data.."
+  s.summary          = "My toolkit to get random data."
 
   s.description      = <<-DESC
-                      My toolkit to get random data..
+                       My toolkit to get random data.
                        DESC
 
-  s.homepage         = "http://github.com/NickMeepo/Randoman"
+  s.homepage         = "https://github.com/NickMeepo/Randoman"
   #s.screenshots     = "http://raw.githubusercontent.com/raspu/Highlightr/master/mix2.gif", "http://raw.githubusercontent.com/raspu/Highlightr/master/coding.gif"
   s.license          = 'MIT'
   s.author           = { "Nick Meepo" => "383062105@qq.com" }
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Randoman/**/*.{swift}'
 
-  s.resources  = 'Randoman/**/*.{js}'
+  s.resources  = 'Randoman/script/*.{js}'
 
   #s.ios.frameworks = 'UIKit'
   #s.osx.frameworks = 'AppKit'
