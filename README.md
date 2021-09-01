@@ -42,6 +42,8 @@ let trial = Random.sample.bernoulli(successProp: 0.25).single()
 
 ### Documentation
 
+[Link](https://github.com/NickMeepo/Randoman/blob/main/Documentation.md)
+
 ### Requirement
 
 - iOS 10.0+ / Mac OS X 10.15+ / tvOS 10.0+
